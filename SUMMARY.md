@@ -13,6 +13,6 @@
 * [YO](lib/untitled.md)
 * [Getting started](lib/gettingstarted.md)
 * [Geb](lib/geb.md)
-* [Safe](safe.md)
+* [Safe](lib/safe.md)
 * [Proxy actions](lib/gebproxyactions.md)
 
