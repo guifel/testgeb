@@ -10,7 +10,6 @@
 
 ## LIB
 
-* [YO](lib/untitled.md)
 * [Getting started](lib/gettingstarted.md)
 * [Geb](lib/geb.md)
 * [Safe](lib/safe.md)
