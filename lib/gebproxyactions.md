@@ -2,78 +2,8 @@
 
 Convenience class to call function from Proxy Action contract through a proxy registered in the proxy registry. These action allow to bundle non-view calls. i.g: Open a safe + Lock some ETH + draw some RAI in one single transaction.
 
-## Hierarchy
-
-* GebProxyActions
-
-  ↳ **GebProxyActions**
-
-## Index
-
-### Constructors
-
-* [constructor](gebproxyactions.md#constructor)
-
-### Properties
-
-* [address](gebproxyactions.md#address)
-* [chainProvider](gebproxyactions.md#chainprovider)
-* [proxy](gebproxyactions.md#proxy)
-* [proxyActionAddress](gebproxyactions.md#proxyactionaddress)
-* [proxyAddress](gebproxyactions.md#proxyaddress)
-
-### Methods
-
-* [allowHandler](gebproxyactions.md#allowhandler)
-* [allowSAFE](gebproxyactions.md#allowsafe)
-* [approveSAFEModification](gebproxyactions.md#approvesafemodification)
-* [coinJoin_join](gebproxyactions.md#coinjoin_join)
-* [denySAFEModification](gebproxyactions.md#denysafemodification)
-* [enterSystem](gebproxyactions.md#entersystem)
-* [ethJoin_join](gebproxyactions.md#ethjoin_join)
-* [exitETH](gebproxyactions.md#exiteth)
-* [exitTokenCollateral](gebproxyactions.md#exittokencollateral)
-* [freeETH](gebproxyactions.md#freeeth)
-* [freeTokenCollateral](gebproxyactions.md#freetokencollateral)
-* [generateDebt](gebproxyactions.md#generatedebt)
-* [generateDebtAndProtectSAFE](gebproxyactions.md#generatedebtandprotectsafe)
-* [lockETH](gebproxyactions.md#locketh)
-* [lockETHAndGenerateDebt](gebproxyactions.md#lockethandgeneratedebt)
-* [lockTokenCollateral](gebproxyactions.md#locktokencollateral)
-* [lockTokenCollateralAndGenerateDebt](gebproxyactions.md#locktokencollateralandgeneratedebt)
-* [lockTokenCollateralGenerateDebtAndProtectSAFE](gebproxyactions.md#locktokencollateralgeneratedebtandprotectsafe)
-* [makeCollateralBag](gebproxyactions.md#makecollateralbag)
-* [modifySAFECollateralization](gebproxyactions.md#modifysafecollateralization)
-* [moveSAFE](gebproxyactions.md#movesafe)
-* [openLockETHAndGenerateDebt](gebproxyactions.md#openlockethandgeneratedebt)
-* [openLockETHGenerateDebtAndProtectSAFE](gebproxyactions.md#openlockethgeneratedebtandprotectsafe)
-* [openLockGNTAndGenerateDebt](gebproxyactions.md#openlockgntandgeneratedebt)
-* [openLockGNTGenerateDebtAndProtectSAFE](gebproxyactions.md#openlockgntgeneratedebtandprotectsafe)
-* [openLockTokenCollateralAndGenerateDebt](gebproxyactions.md#openlocktokencollateralandgeneratedebt)
-* [openLockTokenCollateralGenerateDebtAndProtectSAFE](gebproxyactions.md#openlocktokencollateralgeneratedebtandprotectsafe)
-* [openSAFE](gebproxyactions.md#opensafe)
-* [protectSAFE](gebproxyactions.md#protectsafe)
-* [quitSystem](gebproxyactions.md#quitsystem)
-* [repayAllDebt](gebproxyactions.md#repayalldebt)
-* [repayAllDebtAndFreeETH](gebproxyactions.md#repayalldebtandfreeeth)
-* [repayAllDebtAndFreeTokenCollateral](gebproxyactions.md#repayalldebtandfreetokencollateral)
-* [repayDebt](gebproxyactions.md#repaydebt)
-* [repayDebtAndFreeETH](gebproxyactions.md#repaydebtandfreeeth)
-* [repayDebtAndFreeTokenCollateral](gebproxyactions.md#repaydebtandfreetokencollateral)
-* [safeLockETH](gebproxyactions.md#safelocketh)
-* [safeLockTokenCollateral](gebproxyactions.md#safelocktokencollateral)
-* [safeRepayAllDebt](gebproxyactions.md#saferepayalldebt)
-* [safeRepayDebt](gebproxyactions.md#saferepaydebt)
-* [tokenCollateralJoin_join](gebproxyactions.md#tokencollateraljoin_join)
-* [transfer](gebproxyactions.md#transfer)
-* [transferCollateral](gebproxyactions.md#transfercollateral)
-* [transferInternalCoins](gebproxyactions.md#transferinternalcoins)
-* [transferSAFEOwnership](gebproxyactions.md#transfersafeownership)
-* [transferSAFEOwnershipToProxy](gebproxyactions.md#transfersafeownershiptoproxy)
-
 ## Constructors
 
-###  constructor
 
 \+ **new GebProxyActions**(`proxyAddress`: string, `network`: GebDeployment, `chainProvider`: GebProviderInterface): *[GebProxyActions](gebproxyactions.md)*
 

@@ -2,33 +2,8 @@
 
 Represent a GEB safe. Has the safe state and provide helper function to calculate liquidation price, CRatio, etc...
 
-## Hierarchy
-
-* **Safe**
-
-## Index
-
-### Constructors
-
-* [constructor](safe.md#constructor)
-
-### Properties
-
-* [collateral](safe.md#collateral)
-* [collateralType](safe.md#collateraltype)
-* [debt](safe.md#debt)
-* [handler](safe.md#handler)
-* [isManaged](safe.md#ismanaged)
-
-### Methods
-
-* [getCRatio](safe.md#getcratio)
-* [getLRatio](safe.md#getlratio)
-* [liquidationPrice](safe.md#liquidationprice)
-
 ## Constructors
 
-###  constructor
 
 \+ **new Safe**(`contracts`: ContractApis, `handler`: string, `debt`: BigNumber, `collateral`: BigNumber, `collateralType`: string, `isManaged`: boolean): *[Safe](safe.md)*
 

@@ -2,30 +2,8 @@
 
 Main object of the library instantiating all useful GEB contracts and providing all helper functions needed.
 
-## Hierarchy
-
-* **Geb**
-
-## Index
-
-### Constructors
-
-* [constructor](geb.md#constructor)
-
-### Properties
-
-* [contracts](geb.md#contracts)
-
-### Methods
-
-* [deployProxy](geb.md#deployproxy)
-* [getProxyAction](geb.md#getproxyaction)
-* [getSafe](geb.md#getsafe)
-* [multiCall](geb.md#multicall)
-
 ## Constructors
 
-###  constructor
 
 \+ **new Geb**(`network`: GebDeployment, `provider`: GebProviderInterface | Provider): *[Geb](geb.md)*
 
