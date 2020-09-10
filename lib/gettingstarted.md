@@ -2,10 +2,7 @@
 
 Library to interact with the GEB smart contracts. Manage your safes, mint RAI, inspect the system state, and much more.
 
-Feature:
-
--   Written in Typescript with full typing support
--   Low level API, import only on the smart contract interface if all the higher level function are of no use to you
+The library is written in Typescript with full typing support. It allows access to the low level API to directly interact with the contracts.
 
 ## Install
 
